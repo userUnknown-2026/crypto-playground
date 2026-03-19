@@ -8,7 +8,7 @@ https://inventwithpython.com/cracking/chapter5.html
 
 import traceback
 
-# Only these 92 symbols will be encrypted/decrypted
+# Only these symbols will be encrypted/decrypted
 SYMBOLS = "ABCDEFGHIJKLMNOPQRSTUVWXYZ" \
           "abcdefghijklmnopqrstuvwxyz" \
           "0123456789" \
