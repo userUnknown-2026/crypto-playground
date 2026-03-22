@@ -9,10 +9,10 @@ https://inventwithpython.com/cracking/chapter5.html
 import traceback
 
 # Only these symbols will be encrypted/decrypted
-SYMBOLS = "ABCDEFGHIJKLMNOPQRSTUVWXYZ" \
-          "abcdefghijklmnopqrstuvwxyz" \
-          "0123456789" \
-          "!\"§$%&/()=?`´#'-_.:,;\\{}[]|<>"
+SYMBOLS =   "ABCDEFGHIJKLMNOPQRSTUVWXYZ" \
+            "abcdefghijklmnopqrstuvwxyz" \
+            "1234567890" \
+            "!\"§$%&/()=?`´+#*'~,.-;:_<>|^°@µ€²³{}[]\\"
 
 minKey = 0
 maxKey = len(SYMBOLS) - 1
